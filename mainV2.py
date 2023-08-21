@@ -2,7 +2,7 @@
 
 import smtplib
 import random
-from configuration import SECRET_KEY, quotes, carriers, spreadsheetId
+from configuration import SECRET_KEY, quotes, carriers, spreadsheetId, userEmail
 import os
 
 from google.auth.transport.requests import Request
@@ -20,7 +20,7 @@ SPREADSHEET_ID = spreadsheetId
 
 
 # Email details
-email = "testerGoggins@gmail.com"
+email = userEmail
 password = SECRET_KEY
 
 chosen_quote = random.choice(quotes)
