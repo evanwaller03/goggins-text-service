@@ -1,4 +1,4 @@
-# cd Summer 2023 Projects - In Use/Goggins/celeb_text.py
+# cd Summer 2023 Projects - In Use/Goggins (for easy command prompt access)
 
 import smtplib
 import random
