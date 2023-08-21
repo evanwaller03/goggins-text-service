@@ -1,6 +1,8 @@
 # goggins-text-service
 Sends a daily David Goggins motivational text to users who sign up to my google forms.
 
+SET-UP Process:
+  - Check the configuration file to set up your own email, passwords, sheet ID, etc.
 
 Process: 
   - Users submit their phone number and carrier to my google forms which automatically updates a google sheet.
