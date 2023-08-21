@@ -2,7 +2,7 @@
 
 import smtplib
 import random
-from config import SECRET_KEY, quotes, carriers, spreadsheetId
+from configuration import SECRET_KEY, quotes, carriers, spreadsheetId
 import os
 
 from google.auth.transport.requests import Request
